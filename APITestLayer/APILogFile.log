@@ -1,0 +1,285 @@
+﻿2024-10-14 14:25:29,209 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-14 14:25:29,302 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-10-14 14:25:30,130 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 14:25:30,130 INFO  APITestLayer.Hooks.Hook - Given I call the API
+2024-10-14 14:25:30,131 ERROR APITestLayer.Hooks.Hook - Error 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at FrameWorkLayer.Utilities.APIUtility.Get[T](String endpoint, Dictionary`2 headers, Dictionary`2 parameter) in C:\Users\kuncham_manikanta\Documents\Training\Testing\SpecFlow\Login\Specflow\FrameWorkLayer\Utilities\APIUtility.cs:line 39
+   at Login.StepDefinitions.APITestStepDefinitions.GivenICallTheAPI() in C:\Users\kuncham_manikanta\Documents\Training\Testing\SpecFlow\Login\Specflow\APITestLayer\StepDefinitions\APITestStepDefinitions.cs:line 41
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2024-10-14 14:25:30,193 INFO  APITestLayer.Hooks.Hook - Running After Scenario ...
+2024-10-14 14:26:33,304 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-14 14:26:33,404 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-10-14 14:40:53,065 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-14 14:40:53,204 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-10-14 14:40:54,671 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 14:40:54,672 INFO  APITestLayer.Hooks.Hook - Given I call the API
+2024-10-14 14:40:54,683 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 14:40:54,683 INFO  APITestLayer.Hooks.Hook - Then I should get the response
+2024-10-14 14:40:54,686 INFO  APITestLayer.Hooks.Hook - Running After Scenario ...
+2024-10-14 14:42:49,943 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-14 14:42:50,106 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-10-14 14:43:04,891 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 14:43:05,745 INFO  APITestLayer.Hooks.Hook - Given I call the API
+2024-10-14 14:43:06,457 ERROR APITestLayer.Hooks.Hook - Error 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at FrameWorkLayer.Utilities.APIUtility.Get[T](String endpoint, Dictionary`2 headers, Dictionary`2 parameters) in C:\Users\kuncham_manikanta\Documents\Training\Testing\SpecFlow\Login\Specflow\FrameWorkLayer\Utilities\APIUtility.cs:line 39
+   at Login.StepDefinitions.APITestStepDefinitions.GivenICallTheAPI() in C:\Users\kuncham_manikanta\Documents\Training\Testing\SpecFlow\Login\Specflow\APITestLayer\StepDefinitions\APITestStepDefinitions.cs:line 41
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2024-10-14 14:43:09,778 INFO  APITestLayer.Hooks.Hook - Running After Scenario ...
+2024-10-14 14:43:49,688 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-14 14:43:49,856 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-10-14 14:45:18,208 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-14 14:45:18,359 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-10-14 14:57:57,855 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-14 14:57:58,024 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-10-14 14:57:59,179 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 14:57:59,179 INFO  APITestLayer.Hooks.Hook - Given I call the API
+2024-10-14 14:57:59,179 ERROR APITestLayer.Hooks.Hook - Error 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at FrameWorkLayer.Utilities.APIUtility.Get[T](String endpoint, Dictionary`2 headers, Dictionary`2 parameters) in C:\Users\kuncham_manikanta\Documents\Training\Testing\SpecFlow\Login\Specflow\FrameWorkLayer\Utilities\APIUtility.cs:line 39
+   at Login.StepDefinitions.APITestStepDefinitions.GivenICallTheAPI() in C:\Users\kuncham_manikanta\Documents\Training\Testing\SpecFlow\Login\Specflow\APITestLayer\StepDefinitions\APITestStepDefinitions.cs:line 41
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2024-10-14 14:57:59,297 INFO  APITestLayer.Hooks.Hook - Running After Scenario ...
+2024-10-14 15:01:36,172 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-14 15:01:37,905 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 15:01:37,906 INFO  APITestLayer.Hooks.Hook - Given I call the API
+2024-10-14 15:01:37,907 ERROR APITestLayer.Hooks.Hook - Error 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at FrameWorkLayer.Utilities.APIUtility.Get[T](String endPoint, Dictionary`2 headers, Dictionary`2 parameters) in C:\Users\kuncham_manikanta\Documents\Training\Testing\SpecFlow\Login\Specflow\FrameWorkLayer\Utilities\APIUtility.cs:line 50
+   at Login.StepDefinitions.APITestStepDefinitions.GivenICallTheAPI() in C:\Users\kuncham_manikanta\Documents\Training\Testing\SpecFlow\Login\Specflow\APITestLayer\StepDefinitions\APITestStepDefinitions.cs:line 55
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2024-10-14 15:01:37,998 INFO  APITestLayer.Hooks.Hook - Running After Scenario ...
+2024-10-14 15:07:39,928 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-14 15:07:40,206 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 15:07:40,207 INFO  APITestLayer.Hooks.Hook - Given I call the API
+2024-10-14 15:07:40,207 ERROR APITestLayer.Hooks.Hook - Error 
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\kuncham_manikanta\Documents\Training\Testing\SpecFlow\Login\Specflow\APITestLayer\bin\Debug\net48\appsettings.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at FrameWorkLayer.Configure.ConfigReader.GetConfig(String configPath) in C:\Users\kuncham_manikanta\Documents\Training\Testing\SpecFlow\Login\Specflow\FrameWorkLayer\Configure\ConfigReader.cs:line 16
+   at FrameWorkPractice.StepDefinitions.APIStepDefinitions..ctor() in C:\Users\kuncham_manikanta\Documents\Training\Testing\SpecFlow\Login\Specflow\APITestLayer\StepDefinitions\APITestStepDefinitions.cs:line 21
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at BoDi.ObjectContainer.CreateObject(Type type, ResolutionList resolutionPath, RegistrationKey keyToResolve)
+   at BoDi.ObjectContainer.TypeRegistration.<>c__DisplayClass3_0.<ResolvePerContext>b__1()
+   at BoDi.ObjectContainer.RegistrationWithStrategy.ExecuteWithLock(Object lockObject, Func`1 getter, Func`1 factory, ResolutionList resolutionPath)
+   at BoDi.ObjectContainer.TypeRegistration.ResolvePerContext(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)
+   at BoDi.ObjectContainer.RegistrationWithStrategy.Resolve(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)
+   at BoDi.ObjectContainer.ResolveObject(RegistrationKey keyToResolve, ResolutionList resolutionPath)
+   at BoDi.ObjectContainer.Resolve(Type typeToResolve, ResolutionList resolutionPath, String name)
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2024-10-14 15:07:40,364 INFO  APITestLayer.Hooks.Hook - Running After Scenario ...
+2024-10-14 15:09:58,458 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-14 15:09:58,597 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-10-14 15:10:00,059 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 15:10:00,059 INFO  APITestLayer.Hooks.Hook - Given I call the API
+2024-10-14 15:10:00,068 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 15:10:00,068 INFO  APITestLayer.Hooks.Hook - Then I should get the response
+2024-10-14 15:10:00,073 INFO  APITestLayer.Hooks.Hook - Running After Scenario ...
+2024-10-14 15:12:40,948 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-14 15:12:41,078 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-10-14 15:14:31,571 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-14 15:14:31,660 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-10-14 15:14:32,593 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 15:14:32,593 INFO  APITestLayer.Hooks.Hook - Given I call the API
+2024-10-14 15:14:32,594 ERROR APITestLayer.Hooks.Hook - Error 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at FrameWorkLayer.Utilities.APIUtility.Get[T](String endpoint, Dictionary`2 headers, Dictionary`2 parameters) in C:\Users\kuncham_manikanta\Documents\Training\Testing\SpecFlow\Login\Specflow\FrameWorkLayer\Utilities\APIUtility.cs:line 41
+   at Login.StepDefinitions.APITestStepDefinitions.GivenICallTheAPI() in C:\Users\kuncham_manikanta\Documents\Training\Testing\SpecFlow\Login\Specflow\APITestLayer\StepDefinitions\APITestStepDefinitions.cs:line 41
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2024-10-14 15:14:32,666 INFO  APITestLayer.Hooks.Hook - Running After Scenario ...
+2024-10-14 15:18:20,308 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-14 15:18:20,477 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-10-14 15:18:21,362 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 15:18:21,363 INFO  APITestLayer.Hooks.Hook - Given I call the API
+2024-10-14 15:18:21,363 ERROR APITestLayer.Hooks.Hook - Error 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at FrameWorkLayer.Utilities.APIUtility.Get[T](String endpoint, Dictionary`2 headers, Dictionary`2 parameters) in C:\Users\kuncham_manikanta\Documents\Training\Testing\SpecFlow\Login\Specflow\FrameWorkLayer\Utilities\APIUtility.cs:line 41
+   at Login.StepDefinitions.APITestStepDefinitions.GivenICallTheAPI() in C:\Users\kuncham_manikanta\Documents\Training\Testing\SpecFlow\Login\Specflow\APITestLayer\StepDefinitions\APITestStepDefinitions.cs:line 45
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2024-10-14 15:18:21,478 INFO  APITestLayer.Hooks.Hook - Running After Scenario ...
+2024-10-14 15:22:50,985 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-14 15:22:51,089 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-10-14 15:22:52,277 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 15:22:52,277 INFO  APITestLayer.Hooks.Hook - Given I call the API
+2024-10-14 15:22:52,287 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 15:22:52,287 INFO  APITestLayer.Hooks.Hook - Then I should get the response
+2024-10-14 15:22:52,291 INFO  APITestLayer.Hooks.Hook - Running After Scenario ...
+2024-10-14 15:23:12,674 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service of Post Method
+2024-10-14 15:23:12,798 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 15:23:12,799 INFO  APITestLayer.Hooks.Hook - Given I prepare the data to be sent
+2024-10-14 15:23:13,712 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 15:23:13,712 INFO  APITestLayer.Hooks.Hook - When I send a POST request to the API
+2024-10-14 15:23:13,719 INFO  Login.StepDefinitions.APITestStepDefinitions - Status Code: Created
+2024-10-14 15:23:14,423 INFO  Login.StepDefinitions.APITestStepDefinitions - Response Data: {
+  "name": "John Doe",
+  "job": "Developer",
+  "id": "680",
+  "createdAt": "2024-10-14T09:53:14.932Z"
+}
+2024-10-14 15:23:14,423 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 15:23:14,423 INFO  APITestLayer.Hooks.Hook - Then I should get a successful response
+2024-10-14 15:23:14,426 INFO  APITestLayer.Hooks.Hook - Running After Scenario ...
+2024-10-14 15:25:23,873 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service of Post Method
+2024-10-14 15:25:23,987 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 15:25:23,988 INFO  APITestLayer.Hooks.Hook - Given I prepare the data to be sent
+2024-10-14 15:25:24,924 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 15:25:24,924 INFO  APITestLayer.Hooks.Hook - When I send a POST request to the API
+2024-10-14 15:25:24,930 INFO  Login.StepDefinitions.APITestStepDefinitions - Status Code: Created
+2024-10-14 15:25:25,616 INFO  Login.StepDefinitions.APITestStepDefinitions - Response Data: {
+  "name": "John Doe",
+  "job": "Developer",
+  "id": "841",
+  "createdAt": "2024-10-14T09:55:26.072Z"
+}
+2024-10-14 15:25:25,616 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-14 15:25:25,616 INFO  APITestLayer.Hooks.Hook - Then I should get a successful response
+2024-10-14 15:25:25,620 INFO  APITestLayer.Hooks.Hook - Running After Scenario ...
+2024-10-15 12:01:00,801 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-15 12:01:00,936 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-10-15 12:01:02,413 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-15 12:01:02,413 INFO  APITestLayer.Hooks.Hook - Given I call the API
+2024-10-15 12:01:02,426 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-15 12:01:02,426 INFO  APITestLayer.Hooks.Hook - Then I should get the response
+2024-10-15 12:01:02,432 INFO  APITestLayer.Hooks.Hook - Running After Scenario ...
+2024-10-15 12:01:02,458 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service of Post Method
+2024-10-15 12:01:02,463 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-15 12:01:02,464 INFO  APITestLayer.Hooks.Hook - Given I prepare the data to be sent
+2024-10-15 12:01:03,149 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-15 12:01:03,149 INFO  APITestLayer.Hooks.Hook - When I send a POST request to the API
+2024-10-15 12:01:03,159 INFO  Login.StepDefinitions.APITestStepDefinitions - Status Code: Created
+2024-10-15 12:01:03,870 INFO  Login.StepDefinitions.APITestStepDefinitions - Response Data: {
+  "name": "John Doe",
+  "job": "Developer",
+  "id": "315",
+  "createdAt": "2024-10-15T06:31:03.265Z"
+}
+2024-10-15 12:01:03,870 INFO  APITestLayer.Hooks.Hook - Running After Step...
+2024-10-15 12:01:03,870 INFO  APITestLayer.Hooks.Hook - Then I should get a successful response
+2024-10-15 12:01:03,870 INFO  APITestLayer.Hooks.Hook - Running After Scenario ...
+2024-10-16 12:18:04,697 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-16 12:18:04,798 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-10-16 12:18:05,891 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-10-16 12:18:05,891 INFO  Login.StepDefinitions.APITestStepDefinitions - Given I call the API
+2024-10-16 12:18:05,898 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-10-16 12:18:05,898 INFO  Login.StepDefinitions.APITestStepDefinitions - Then I should get the response
+2024-10-16 12:18:05,900 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Scenario ...
+2024-10-16 12:18:05,912 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service of Post Method
+2024-10-16 12:18:05,915 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-10-16 12:18:05,915 INFO  Login.StepDefinitions.APITestStepDefinitions - Given I prepare the data to be sent
+2024-10-16 12:18:06,481 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-10-16 12:18:06,481 INFO  Login.StepDefinitions.APITestStepDefinitions - When I send a POST request to the API
+2024-10-16 12:18:06,486 INFO  Login.StepDefinitions.APITestStepDefinitions - Status Code: Created
+2024-10-16 12:18:06,981 INFO  Login.StepDefinitions.APITestStepDefinitions - Response Data: {
+  "name": "John Doe",
+  "job": "Developer",
+  "id": "792",
+  "createdAt": "2024-10-16T06:48:07.333Z"
+}
+2024-10-16 12:18:06,981 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-10-16 12:18:06,981 INFO  Login.StepDefinitions.APITestStepDefinitions - Then I should get a successful response
+2024-10-16 12:18:06,981 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Scenario ...
+2024-10-31 15:35:10,818 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-10-31 15:35:10,890 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-10-31 15:35:12,046 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-10-31 15:35:12,046 INFO  Login.StepDefinitions.APITestStepDefinitions - Given I call the API
+2024-10-31 15:35:12,054 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-10-31 15:35:12,054 INFO  Login.StepDefinitions.APITestStepDefinitions - Then I should get the response
+2024-10-31 15:35:12,056 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Scenario ...
+2024-10-31 15:35:12,067 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service of Post Method
+2024-10-31 15:35:12,070 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-10-31 15:35:12,070 INFO  Login.StepDefinitions.APITestStepDefinitions - Given I prepare the data to be sent
+2024-10-31 15:35:12,765 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-10-31 15:35:12,765 INFO  Login.StepDefinitions.APITestStepDefinitions - When I send a POST request to the API
+2024-10-31 15:35:12,769 INFO  Login.StepDefinitions.APITestStepDefinitions - Status Code: Created
+2024-10-31 15:35:13,092 INFO  Login.StepDefinitions.APITestStepDefinitions - Response Data: {
+  "name": "John Doe",
+  "job": "Developer",
+  "id": "561",
+  "createdAt": "2024-10-31T10:05:13.164Z"
+}
+2024-10-31 15:35:13,092 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-10-31 15:35:13,092 INFO  Login.StepDefinitions.APITestStepDefinitions - Then I should get a successful response
+2024-10-31 15:35:13,092 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Scenario ...
+2024-11-04 13:59:38,904 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-11-04 13:59:38,960 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-11-04 13:59:40,112 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-11-04 13:59:40,112 INFO  Login.StepDefinitions.APITestStepDefinitions - Given I call the API
+2024-11-04 13:59:40,117 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-11-04 13:59:40,117 INFO  Login.StepDefinitions.APITestStepDefinitions - Then I should get the response
+2024-11-04 13:59:40,119 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Scenario ...
+2024-11-04 13:59:40,129 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service of Post Method
+2024-11-04 13:59:40,131 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-11-04 13:59:40,131 INFO  Login.StepDefinitions.APITestStepDefinitions - Given I prepare the data to be sent
+2024-11-04 13:59:40,714 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-11-04 13:59:40,714 INFO  Login.StepDefinitions.APITestStepDefinitions - When I send a POST request to the API
+2024-11-04 13:59:40,717 INFO  Login.StepDefinitions.APITestStepDefinitions - Status Code: Created
+2024-11-04 13:59:41,040 INFO  Login.StepDefinitions.APITestStepDefinitions - Response Data: {
+  "name": "John Doe",
+  "job": "Developer",
+  "id": "599",
+  "createdAt": "2024-11-04T08:29:41.285Z"
+}
+2024-11-04 13:59:41,040 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-11-04 13:59:41,040 INFO  Login.StepDefinitions.APITestStepDefinitions - Then I should get a successful response
+2024-11-04 13:59:41,040 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Scenario ...
+2024-11-04 14:34:19,512 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service Get Method
+2024-11-04 14:34:19,580 INFO  Login.StepDefinitions.APITestStepDefinitions - Api Started
+2024-11-04 14:34:20,845 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-11-04 14:34:20,847 INFO  Login.StepDefinitions.APITestStepDefinitions - Given I call the API
+2024-11-04 14:34:20,855 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-11-04 14:34:20,855 INFO  Login.StepDefinitions.APITestStepDefinitions - Then I should get the response
+2024-11-04 14:34:20,858 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Scenario ...
+2024-11-04 14:34:20,883 INFO  APITestLayer.Hooks.Hook - Running Before Scenario for...verify the service of Post Method
+2024-11-04 14:34:20,887 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-11-04 14:34:20,887 INFO  Login.StepDefinitions.APITestStepDefinitions - Given I prepare the data to be sent
+2024-11-04 14:34:21,483 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-11-04 14:34:21,483 INFO  Login.StepDefinitions.APITestStepDefinitions - When I send a POST request to the API
+2024-11-04 14:34:21,489 INFO  Login.StepDefinitions.APITestStepDefinitions - Status Code: Created
+2024-11-04 14:34:21,996 INFO  Login.StepDefinitions.APITestStepDefinitions - Response Data: {
+  "name": "John Doe",
+  "job": "Developer",
+  "id": "805",
+  "createdAt": "2024-11-04T09:04:22.056Z"
+}
+2024-11-04 14:34:21,996 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Step...
+2024-11-04 14:34:21,996 INFO  Login.StepDefinitions.APITestStepDefinitions - Then I should get a successful response
+2024-11-04 14:34:21,996 INFO  Login.StepDefinitions.APITestStepDefinitions - Running After Scenario ...
